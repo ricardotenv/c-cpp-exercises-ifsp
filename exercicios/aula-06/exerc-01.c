@@ -1,3 +1,8 @@
+/*
+Criar um programa que realiza o reajuste de salário de umfuncionário. 
+O usuário deve digitar o nome e o saláriodele e o programa deve retornar esse salário com 20% deaumento
+*/
+
 #include <stdio.h>
 
 char name[100];
