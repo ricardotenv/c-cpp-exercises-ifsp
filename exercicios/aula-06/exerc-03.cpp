@@ -11,7 +11,7 @@
 using namespace std;
 
 float prize_value;
-map<int,float>winners;
+// map<int,float>winners;
 
 int main()
 {
@@ -20,8 +20,10 @@ int main()
     {
         cout << "Informe a pontuação do " << i << " colocado: ";
         cin >> score;
-        winners[i] = score;
-        cout << winners[i] << endl;
+        if(i == 3)
+        {
+            
+        }
     }
     
     // TO-DO
